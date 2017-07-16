@@ -1,4 +1,4 @@
-# Flux
+ # Flux
 
 An application architecture for React
 
@@ -9,6 +9,10 @@ An application architecture for React
 - Dispatcher: Manages Data Flow
 - Stores: Handle State & Logic
 - Views: Render Data via React
+
+---
+
+Hello world
 
 #HSLIDE
 
