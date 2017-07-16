@@ -1,0 +1,12 @@
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+}
+
+img[alt=SpringLogo]{
+    height: 100px;
+}
+
+img[alt=KotlinLogo]{
+    height: 100px;
+}
