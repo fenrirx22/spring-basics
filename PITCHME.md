@@ -1,9 +1,9 @@
- # Spring & Kotlin
+ # Getting started with Spring & Kotlin
  
- <img src="assets/springlogo.png" width="100" />
- <img src="assets/kotlin-logo.png" width="100" />
+ <img src="/assets/springlogo.png" width="100" />
+ <img src=".assets/kotlin-logo.png" width="100" />
 
-#HSLIDE
+---
 
 ### Agenda
 
