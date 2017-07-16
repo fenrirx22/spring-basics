@@ -1,7 +1,8 @@
  # Getting started with Spring & Kotlin
  
  <img src="/assets/springlogo.png" width="100" height="100" />
- <img src=".assets/kotlin-logo.png" width="100" />
+ <img src="assets/kotlin-logo.png" width="100" />
+ <img src="https://spring.io/img/spring-by-pivotal-9066b55828deb3c10e27e609af322c40.png" width="100" />
 
 ---
 
