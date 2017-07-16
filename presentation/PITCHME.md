@@ -1,7 +1,7 @@
  ## Getting started with Spring & Kotlin
 
-![KotlinLogo](presentation/assets/kotlin-logo.png)
 ![SpringLogo](presentation/assets/springlogo.png)
+![KotlinLogo](presentation/assets/kotlin-logo.png)
 
 ---
 
