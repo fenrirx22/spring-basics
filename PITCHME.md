@@ -1,6 +1,7 @@
  # Spring & Kotlin
  
----?image=assets/springlogo.png
+ <img src="assets/springlogo.png" width="100" />
+ <img src="assets/kotlin-logo.png" width="100" />
 
 #HSLIDE
 
