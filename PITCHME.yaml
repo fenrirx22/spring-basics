@@ -1,4 +1,2 @@
 highlight : androidstudio
-logo : assets/kotlin-logo.png
-
-theme-ovveride: assets/css/PITCHME.css
+theme-ovveride: ./assets/css/PITCHME.css
