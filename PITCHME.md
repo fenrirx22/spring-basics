@@ -8,20 +8,23 @@
 
 ### Agenda
 
-
-1. Spring boot
-2.
+1. Spring Framework
+2. Spring boot
 3. adasdasdasd
 
 ---
-
+### Spring Framework
+ - framework that glue things together
+ 
+---
+ 
 ### Spring Boot
 
 ##### The primary goals of Spring Boot are:
 
-* <span style="font-size: 1em;">To provide a radically faster and widely accessible ‘getting started’ experience for all Spring development</span>
-* <span style="font-size: 1em;">To be opinionated out of the box, but get out of the way quickly as requirements start to diverge from the defaults</span>
-* <span style="font-size: 1em;">To provide a range of non-functional features that are common to large classes of projects (e.g. embedded servers, security, metrics, health checks, externalized configuration)
+* <span style="font-size: small">To provide a radically faster and widely accessible ‘getting started’ experience for all Spring development</span>
+* <span style="font-size: medium;">To be opinionated out of the box, but get out of the way quickly as requirements start to diverge from the defaults</span>
+* <span style="font-size: medium">To provide a range of non-functional features that are common to large classes of projects (e.g. embedded servers, security, metrics, health checks, externalized configuration)
 </span>
 
 ---
