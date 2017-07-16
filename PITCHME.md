@@ -1,24 +1,28 @@
- # Flux
-
-An application architecture for React
+ # Spring & Kotlin
 
 #HSLIDE
 
-### Flux Design
+### Agenda
 
-- Dispatcher: Manages Data Flow
-- Stores: Handle State & Logic
-- Views: Render Data via React
+![Logo](https://spring.io/img/spring-by-pivotal-9066b55828deb3c10e27e609af322c40.png)
+
+1. Spring boot
+2. 
+3. adasdasdasd
 
 ---
 
-Hello world
+### Spring Boot
 
-+++
+##### The primary goals of Spring Boot are:
 
-Vertical slide
+* To provide a radically faster and widely accessible ‘getting started’ experience for all Spring development
+* To be opinionated out of the box, but get out of the way quickly as requirements start to diverge from the defaults
+* To provide a range of non-functional features that are common to large classes of projects (e.g. embedded servers, security, metrics, health checks, externalized configuration)
 
-+++
+
+---
+
 @[1](Something something)
 @[2-4]
 @[5]
