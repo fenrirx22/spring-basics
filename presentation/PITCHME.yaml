@@ -1,3 +1,2 @@
 highlight : androidstudio
-theme-ovveride: presentation/assets/PITCHME.css
-theme: moon
+theme-override: presentation/assets/PITCHME.css
