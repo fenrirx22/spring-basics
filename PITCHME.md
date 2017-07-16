@@ -2,9 +2,7 @@
  
  ![SpringLogo](assets/springlogo.png)
  
- ![Kotlin](.assets/kotlin-logo.png)
- 
- ![CHUJ](/assets/kotlin-logo.png)
+ ![KotlinLogo](assets/kotlin-logo.png)
  
  <img src="/assets/springlogo.png" width="100" height="100" />
  <img src="assets/kotlin-logo.png" width="100" style="border: 0;" />
