@@ -1,6 +1,6 @@
  ## Getting started with Spring & Kotlin
 
- <img src="https://spring.io/img/spring-by-pivotal-9066b55828deb3c10e27e609af322c40.png" width="100"   style="border: 0;" />
+ <img src="https://spring.io/img/spring-by-pivotal-9066b55828deb3c10e27e609af322c40.png" width="200"   style="border: 0;" />
  <img src="https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/14939/small/1472226645/kotlin-logo.png" width="100"  style="border: 0;"/>
 
 ---
