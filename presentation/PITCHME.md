@@ -18,7 +18,7 @@
 
 ---
 ### Spring Framework
- - framework that glue things together
+ - _framework that glue things together_
  
 ---
  
@@ -26,13 +26,18 @@
 
 ##### The primary goals of Spring Boot are:
 
-* <span style="font-size: larger">To provide a radically faster and widely accessible ‘getting started’ experience for all Spring development</span>
-* <span style="font-size: larger;">To be opinionated out of the box, but get out of the way quickly as requirements start to diverge from the defaults</span>
-* <span style="font-size: larger">To provide a range of non-functional features that are common to large classes of projects (e.g. embedded servers, security, metrics, health checks, externalized configuration)
+* <span style="font-size: 14px">To provide a radically faster and widely accessible ‘getting started’ experience for all Spring development</span>
+* <span style="font-size: 14px;">To be opinionated out of the box, but get out of the way quickly as requirements start to diverge from the defaults</span>
+* <span style="font-size: 14px">To provide a range of non-functional features that are common to large classes of projects (e.g. embedded servers, security, metrics, health checks, externalized configuration)
 </span>
 
 ---
 
+### Starting new project
+![Online tool](https://start.spring.io)
+![TestImg](assets/springlogo.png)
+
+---
 ```kotlin
 @SpringBootApplication
 class SpringBasicsApplication
