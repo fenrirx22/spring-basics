@@ -34,7 +34,7 @@
 ---
 
 ### Starting new project
-![Online tool](https://start.spring.io)
+[Online tool](https://start.spring.io)
 ![TestImg](assets/springlogo.png)
 
 ---
