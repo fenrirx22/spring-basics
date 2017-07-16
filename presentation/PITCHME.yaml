@@ -1,2 +1,2 @@
 highlight : androidstudio
-theme-ovveride: ./assets/css/PITCHME.css
+theme-ovveride: presentation/assets/css/PITCHME.css
