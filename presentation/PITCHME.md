@@ -19,8 +19,8 @@
 ---
 ### Spring Framework
  - _framework that glue things together
- _
- ![SpringEco](presentation/assets/springecosystem.jpg)
+
+![SpringEco](presentation/assets/springecosystem.jpg)
  
 ---
  
