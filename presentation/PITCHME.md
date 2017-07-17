@@ -18,7 +18,7 @@
 
 ---
 ### Spring Framework
- - _framework that glue things together_
+  _framework that glue things together_
 
 ![SpringEco](presentation/assets/ecosys.png)
  
@@ -36,9 +36,9 @@
 
 ### Starting new project
 
----?image=presentation/assets/springstart.png&size=contain
++++?image=presentation/assets/springstart.png&size=contain
 
----
++++
 ## Configuration files
 .property / .yaml
 
