@@ -35,6 +35,7 @@
 ---
 
 ### Starting new project
+![NewProjectLogo](presentation/assets/newproject.jpg)
 
 +++?image=presentation/assets/springstart.png&size=contain
 
