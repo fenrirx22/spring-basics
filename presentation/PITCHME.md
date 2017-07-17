@@ -18,7 +18,7 @@
 
 ---
 ### Spring Framework
- - _framework that glue things together
+ - _framework that glue things together_
 
 ![SpringEco](presentation/assets/ecosys.png)
  
@@ -28,9 +28,9 @@
 
 ##### The primary goals of Spring Boot are:
 
-* <span style="font-size: large; color: orange;">To provide a radically faster and widely accessible ‘getting started’ experience for all Spring development</span>
-* <span style="font-size: large; color: orange;">To provide a range of non-functional features that are common to large classes of projects (e.g. embedded servers, security, metrics, health checks, externalized configuration)
-</span>
+* To provide a radically faster and widely accessible ‘getting started’ experience for all Spring development
+* To provide a range of non-functional features that are common to large classes of projects (e.g. embedded servers, security, metrics, health checks, externalized configuration)
+
 
 ---
 

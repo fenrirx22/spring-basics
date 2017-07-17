@@ -1,0 +1,10 @@
+spring:
+    profiles:
+        active: dev
+    application:
+        name: default
+    datasource:
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost/test
+server:
+    port: 9000
