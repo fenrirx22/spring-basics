@@ -6,10 +6,12 @@
 
 img[alt=SpringLogo]{
     height: 100px;
-    background: none;
 }
 
 img[alt=KotlinLogo]{
     height: 100px;
-    background: none;
+}
+
+img[alt=SpringEco]{
+    height: 300px;
 }
