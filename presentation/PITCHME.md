@@ -20,7 +20,7 @@
 ### Spring Framework
  - _framework that glue things together
 
-![SpringEco](presentation/assets/springecosystem.jpg)
+![SpringEco](presentation/assets/ecosys.png)
  
 ---
  
@@ -37,6 +37,10 @@
 ### Starting new project
 
 ---?image=presentation/assets/springstart.png&size=contain
+
+---
+## Configuration files
+.property / .yaml
 
 ---
 ```kotlin
