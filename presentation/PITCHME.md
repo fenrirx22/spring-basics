@@ -34,8 +34,8 @@
 ---
 
 ### Starting new project
-[Online tool](https://start.spring.io)
-![TestImg](assets/springlogo.png)
+
+---image=presentation/assets/springstart.png
 
 ---
 ```kotlin
