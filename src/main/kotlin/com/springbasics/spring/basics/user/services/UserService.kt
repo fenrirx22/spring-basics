@@ -19,12 +19,13 @@ class UserService @Autowired constructor(val userRepository: UserRepository, val
     }
 
     fun getUserByName(name: String): UserDto {
-        val user = userRepository.findByName(name) ?: throw UserNotFoundException()
+        val user = userRepository.findFirstByName(name) ?: throw UserNotFoundException()
         return objectMapper.convertValue(user, UserDto::class.java)
     }
 
     fun getAllUsersByName(name: String): List<UserDto> {
-        val users = userRepository.findAllUsersWithName(name) ?: throw UserNotFoundException()
+        val users = userRepository.findAllUsersWithName(name)
+        if (users.isEmpty()) throw UserNotFoundException()
         return users.map { user -> objectMapper.convertValue(user, UserDto::class.java) }
     }
 }

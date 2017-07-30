@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository
 @Repository
 interface UserRepository : JpaRepository<User, Long> {
 
-    fun findByName(name: String): List<User>
+    fun findFirstByName(name: String): User?
 
     @Query("select u from User u where u.name = :name")
     fun findAllUsersWithName(@Param("name") name: String): List<User>

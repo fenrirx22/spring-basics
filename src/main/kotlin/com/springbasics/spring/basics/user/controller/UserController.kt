@@ -14,8 +14,8 @@ import javax.websocket.server.PathParam
 internal class UserController @Autowired constructor(val userService: UserService) {
 
     @GetMapping(produces = arrayOf("application/json"))
-    fun getUser(@PathParam("name") name: String): ResponseEntity<List<UserDto>> {
-    return ResponseEntity(userService.getAllUsersByName(name), HttpStatus.OK)
+    fun getUser(@PathParam("name") name: String): ResponseEntity<UserDto> {
+    return ResponseEntity(userService.getUserByName(name), HttpStatus.OK)
 }
 
     @PutMapping(value = "add", consumes = arrayOf("application/json"))
