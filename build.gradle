@@ -39,7 +39,10 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
+	compile 'mysql:mysql-connector-java'
+	compile("org.springframework.boot:spring-boot-starter-web")
 	compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:${kotlinVersion}")
 	compile("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
+	compile("com.fasterxml.jackson.module:jackson-module-kotlin")
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
