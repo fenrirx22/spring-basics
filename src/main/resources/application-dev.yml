@@ -10,3 +10,6 @@ spring:
 
 server:
   port: 9001
+
+logging.level.org.hibernate.SQL: DEBUG
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder: TRACE
