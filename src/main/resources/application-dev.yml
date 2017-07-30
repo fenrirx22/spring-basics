@@ -7,3 +7,6 @@ spring:
             url: jdbc:mysql://localhost/test
             username: root
             password: root
+
+server:
+  port: 9001
