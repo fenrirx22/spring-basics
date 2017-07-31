@@ -58,12 +58,13 @@ dependencies {
 @[5]
 @[6]
 @[7]
+@[8]
 
 +++
 ## Configuration files
 .property / .yaml
 
-```properties
+```yaml
 spring.datasource.driverClassName=om.mysql.jdbc.Driver
 spring.datasource.url=jdbc:mysql://localhost/test
 ```
