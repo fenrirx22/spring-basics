@@ -1,10 +1,5 @@
 spring:
-    profiles:
-        active: dev
-    application:
-        name: default
-    datasource:
-        driverClassName: com.mysql.jdbc.Driver
-        url: jdbc:mysql://localhost/test
+  profiles:
+    active: dev
 server:
-    port: 9000
+  port: 9000
