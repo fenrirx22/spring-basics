@@ -20,7 +20,7 @@
 ### Spring Framework
   _framework that glue things together_
 
-![SpringEco](presentation/assets/ecosys.png)
+![SpringEco](presentation/assets/springframework.jpeg)
  
 ---
  
