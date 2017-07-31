@@ -37,11 +37,43 @@
 ### Starting new project
 ![NewProjectLogo](presentation/assets/newproject.jpg)
 
-+++?image=presentation/assets/springstart.png&size=contain
+<b>start.spring.io</b>
+
++++
+
+```groovy
+dependencies {
+	compile('org.springframework.boot:spring-boot-starter-data-jpa')
+	compile 'mysql:mysql-connector-java'
+	compile("org.springframework.boot:spring-boot-starter-web")
+	compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:${kotlinVersion}")
+	compile("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
+	compile("com.fasterxml.jackson.module:jackson-module-kotlin")
+	testCompile('org.springframework.boot:spring-boot-starter-test')
+}
+```
+@[2]
+@[3]
+@[4]
+@[5]
+@[6]
+@[7]
 
 +++
 ## Configuration files
 .property / .yaml
+
+```properties
+spring.datasource.driverClassName=om.mysql.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost/test
+```
+
+```yaml
+spring:
+    datasource:
+      driverClassName: om.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost/test
+```
 
 ---
 ```kotlin
