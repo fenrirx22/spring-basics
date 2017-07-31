@@ -16,11 +16,7 @@
 7. Transactions
 8. Exercise
 
----
-### Spring Framework
-  _framework that glue things together_
-
-![SpringEco](presentation/assets/springframework.jpeg)
+---?image=presentation/assets/springframework.jpeg&size=contain
  
 ---
  
