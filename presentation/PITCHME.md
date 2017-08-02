@@ -30,8 +30,12 @@
 
 ---
 
+### Spring = MVC
+![MVCImage](presentation/assets/mvc.png)
+
+---
 ### Starting new project
-![NewProjectLogo](presentation/assets/newproject.jpg)
+![NewProjectLogo](presentation/assets/runner.png)
 
 <b>start.spring.io</b>
 
@@ -81,10 +85,67 @@ fun main(args: Array<String>) {
     SpringApplication.run(SpringBasicsApplication::class.java, *args)
 }
 ```
-@[1](Something something)
-@[2-4]
-@[5]
+@[1]
+@[2-5]
 
 #HSLIDE
+### Controller
+```kotlin
+@RestController
+@RequestMapping("user")
+internal class UserController @Autowired constructor(val userService: UserService) {
 
-![Flux Explained](https://facebook.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png)
+    @GetMapping(produces = arrayOf("application/json"))
+        fun getUser(@PathParam("name") name: String): ResponseEntity<UserDto> {
+        return ResponseEntity(userService.getUserByName(name), HttpStatus.OK)
+    }
+}
+```
+@[1]
+@[2]
+@[3]
+@[5]
+@[6-7]
+
+#VSLIDE
+
+### Service
+
+```kotlin
+@Service
+class UserService @Autowired constructor(val userRepository: UserRepository, val objectMapper: ObjectMapper) {
+
+    fun getUserByName(name: String): UserDto {
+        val user = userRepository.findFirstByName(name) ?: throw UserNotFoundException()
+        return objectMapper.convertValue(user, UserDto::class.java)
+    }
+}
+```
+@[1]
+@[2]
+@[4-7]
+
+#VSLIDE
+
+### Repository
+
+```kotlin
+@Repository
+interface UserRepository : JpaRepository<User, Long> {
+
+    fun findFirstByName(name: String): User?
+
+    @Query("select u from User u where u.name = :name")
+    fun findAllUsersWithName(@Param("name") name: String): List<User>
+}
+```
+
+@[1]
+@[2]
+@[4]
+@[6-7]
+@[6]
+
+#VSLIDE
+
+### Model
