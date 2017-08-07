@@ -10,7 +10,7 @@
 1. Spring Framework
 2. Spring Boot
 3. Starting new project
-4. A little about configuration
+4. Configuration
 5. "Hello World" Controller
 6. Model and Repository
 7. Transactions
@@ -61,7 +61,7 @@ dependencies {
 @[8]
 
 +++
-## Configuration files
+## Configuration
 .property / .yaml
 
 ```yaml
