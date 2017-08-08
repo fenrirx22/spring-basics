@@ -3,19 +3,6 @@
 ![SpringLogo](presentation/assets/springlogo.png)
 ![KotlinLogo](presentation/assets/kotlin-logo.png)
 
----
-
-### Agenda
-
-1. Spring Framework
-2. Spring Boot
-3. Starting new project
-4. Configuration
-5. "Hello World" Controller
-6. Model and Repository
-7. Transactions
-8. Exercise
-
 ---?image=presentation/assets/springframework.jpeg&size=contain
  
 ---
@@ -60,92 +47,7 @@ dependencies {
 @[7]
 @[8]
 
-+++
-## Configuration
-.property / .yaml
-
-```yaml
-spring.datasource.driverClassName=om.mysql.jdbc.Driver
-spring.datasource.url=jdbc:mysql://localhost/test
-```
-
-```yaml
-spring:
-    datasource:
-      driverClassName: om.mysql.jdbc.Driver
-      url: jdbc:mysql://localhost/test
-```
-
 ---
-```kotlin
-@SpringBootApplication
-class SpringBasicsApplication
+### Thanks for listening!
+![NewProjectLogo](presentation/assets/computer.png)
 
-fun main(args: Array<String>) {
-    SpringApplication.run(SpringBasicsApplication::class.java, *args)
-}
-```
-@[1]
-@[2-5]
-
-#HSLIDE
-### Controller
-```kotlin
-@RestController
-@RequestMapping("user")
-internal class UserController @Autowired constructor(val userService: UserService) {
-
-    @GetMapping(produces = arrayOf("application/json"))
-        fun getUser(@PathParam("name") name: String): ResponseEntity<UserDto> {
-        return ResponseEntity(userService.getUserByName(name), HttpStatus.OK)
-    }
-}
-```
-@[1]
-@[2]
-@[3]
-@[5]
-@[6-7]
-
-#VSLIDE
-
-### Service
-
-```kotlin
-@Service
-class UserService @Autowired constructor(val userRepository: UserRepository, val objectMapper: ObjectMapper) {
-
-    fun getUserByName(name: String): UserDto {
-        val user = userRepository.findFirstByName(name) ?: throw UserNotFoundException()
-        return objectMapper.convertValue(user, UserDto::class.java)
-    }
-}
-```
-@[1]
-@[2]
-@[4-7]
-
-#VSLIDE
-
-### Repository
-
-```kotlin
-@Repository
-interface UserRepository : JpaRepository<User, Long> {
-
-    fun findFirstByName(name: String): User?
-
-    @Query("select u from User u where u.name = :name")
-    fun findAllUsersWithName(@Param("name") name: String): List<User>
-}
-```
-
-@[1]
-@[2]
-@[4]
-@[6-7]
-@[6]
-
-#VSLIDE
-
-### Model

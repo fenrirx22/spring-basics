@@ -1,6 +1,5 @@
-package com.springbasics.spring.basics.integration
+package com.springbasics.spring.basics.component
 
-import org.junit.BeforeClass
 import org.junit.runner.RunWith
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.boot.web.server.LocalServerPort

@@ -18,10 +18,9 @@ internal class UserController @Autowired constructor(val userService: UserServic
     return ResponseEntity(userService.getUserByName(name), HttpStatus.OK)
 }
 
-    @PutMapping(value = "add", consumes = arrayOf("application/json"))
+    @PostMapping(value = "add", consumes = arrayOf("application/json"))
     fun addUser(@RequestBody @Valid userDto: UserDto): HttpStatus {
         userService.addUser(userDto)
         return HttpStatus.OK
     }
-
 }

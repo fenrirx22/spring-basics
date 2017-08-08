@@ -10,7 +10,8 @@ import org.springframework.stereotype.Service
 import java.util.*
 
 @Service
-class UserService @Autowired constructor(val userRepository: UserRepository, val objectMapper: ObjectMapper) {
+class UserService @Autowired constructor(val userRepository: UserRepository,
+                                         val objectMapper: ObjectMapper) {
 
 
     fun addUser(user: UserDto) {

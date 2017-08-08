@@ -1,21 +1,14 @@
-package com.springbasics.spring.basics.integration
+package com.springbasics.spring.basics.component
 
 import io.restassured.RestAssured
-import io.restassured.matcher.RestAssuredMatchers
 import org.apache.http.HttpStatus
-import org.junit.Before
 import org.junit.Test
-import java.util.regex.Matcher
 import org.hamcrest.Matchers.*
 
 class UserControllerTest : BaseIntegrationTest() {
 
-    @Before
-    fun setup() {
-    }
-
     @Test
-    fun getUsersShouldReturn200() {
+    fun getUsersWithNameJanShouldReturnOneUserWithNameJanAndLastnameKowalski_STATUS200() {
         RestAssured.given()
                 .port(port)
                 .param("name", "Jan")
@@ -24,6 +17,5 @@ class UserControllerTest : BaseIntegrationTest() {
                 .body("name", `is`("Jan"))
                 .body("lastName", `is`("Kowalski"))
                 .statusCode(HttpStatus.SC_OK)
-
     }
 }
