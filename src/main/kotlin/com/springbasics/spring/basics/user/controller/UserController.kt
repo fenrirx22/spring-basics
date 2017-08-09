@@ -1,5 +1,6 @@
 package com.springbasics.spring.basics.user.controller
 
+import com.springbasics.spring.basics.user.exceptions.UserNotFoundException
 import com.springbasics.spring.basics.user.model.UserDto
 import com.springbasics.spring.basics.user.services.UserService
 import org.springframework.beans.factory.annotation.Autowired
@@ -23,4 +24,10 @@ internal class UserController @Autowired constructor(val userService: UserServic
         userService.addUser(userDto)
         return HttpStatus.OK
     }
+
+
+//    @ExceptionHandler(UserNotFoundException::class)
+//    fun handleError(ex: UserNotFoundException){
+//
+//    }
 }

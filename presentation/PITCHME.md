@@ -48,6 +48,15 @@ dependencies {
 @[8]
 
 ---
+
+### Topics:
+- Transactional
+- Hibernate/JPA
+- Spring Security
+- oAuth2
+
+
+---
 ### Thanks for listening!
 ![NewProjectLogo](presentation/assets/computer.png)
 
