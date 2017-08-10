@@ -48,12 +48,12 @@ dependencies {
 @[8]
 
 ---
-
-### Topics:
+![Topics](presentation/assets/topics.jpg)
 - Transactional
 - Hibernate/JPA
 - Spring Security
 - oAuth2
+- Resource localisation
 
 
 ---
